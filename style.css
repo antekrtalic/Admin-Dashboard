@@ -74,4 +74,7 @@ h3 {
 	align-items: center;
 }
 
-
+.first-group li:nth-child(1) {
+	grid-row: 1 / 2;
+	
+}
