@@ -67,7 +67,13 @@ table {
 
 #sidebar {
 	grid-area: sidebar;
+	display: grid;
 	background-color: rgb(227, 77, 77);
+	grid-template-columns: 1fr;
+	grid-template-rows: 150px 1fr 200px;
+	grid-template-areas: "dashboard"
+						 "first-list"
+						 "second-list";
 }
 
 #main-content {
@@ -76,13 +82,13 @@ table {
 }
 
 h3 {
-	display: flex;
-	grid-row: 1 / 2;
-	justify-content: center;
-	align-items: center;
+	grid-area: dashboard;
 }
 
-.first-group li:nth-child(1) {
-	grid-row: 2 / 3;
+.first-group {
+	grid-area: "first-list";
+}
 
+.second-group {
+	grid-area: second-list;
 }
