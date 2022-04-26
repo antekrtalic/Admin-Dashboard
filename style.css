@@ -81,14 +81,14 @@ table {
 	background-color: rgb(77, 227, 124)
 }
 
-h3 {
+.dashboard {
 	grid-area: dashboard;
 }
 
-.first-group {
+.first-list {
 	grid-area: "first-list";
 }
 
-.second-group {
+.second-list {
 	grid-area: second-list;
 }
