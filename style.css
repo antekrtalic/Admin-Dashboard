@@ -49,24 +49,30 @@ table {
 
 #full-page {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, minmax(100px, 1fr));
+	width: 100%;
+	height: 100vh;
+	grid-template-areas: "sidebar header header"
+	                     "sidebar main main";
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 150px 1fr;
     background-color: aqua;
-    height: 100vh;
+    
     
 }
 
 #header {
-    grid-column: 2 / 5;
-    grid-row: 1 / 2;
+    grid-area: header;
     background-color: rgb(255, 223, 127);
 }
 
 #sidebar {
-	display: grid;
-	grid-row: 1 / 6;
-	grid-template-rows: repeat(10, minmax(100px, 150px));
+	grid-area: sidebar;
 	background-color: rgb(227, 77, 77);
+}
+
+#main-content {
+	grid-area: main;
+	background-color: rgb(77, 227, 124)
 }
 
 h3 {
