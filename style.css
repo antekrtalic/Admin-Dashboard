@@ -83,10 +83,12 @@ table {
 
 .dashboard {
 	grid-area: dashboard;
+	
 }
 
 .dashboard-icon {
 	grid-column: 1 / 2;
+	vertical-align: middle;
 }
 
 h3 {
