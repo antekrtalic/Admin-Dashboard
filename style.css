@@ -88,6 +88,9 @@ table {
 	
 }
 
+span {
+	vertical-align: text-bottom;
+}
 
 li {
 	vertical-align: text-bottom;
