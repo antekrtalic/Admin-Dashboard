@@ -65,6 +65,9 @@ table {
 #header {
     grid-area: header;
     background-color: rgb(255, 223, 127);
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: minmax(50px, 250px) minmax(50px, 250px);
 }
 
 /* --- SIDEBAR --- */
