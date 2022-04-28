@@ -85,6 +85,7 @@ table {
 	grid-area: "first-list";
 	display: flex;
 	justify-content: center;
+	margin-top: 40px;
 	
 }
 
