@@ -60,10 +60,14 @@ table {
     
 }
 
+/* --- HEADER --- */
+
 #header {
     grid-area: header;
     background-color: rgb(255, 223, 127);
 }
+
+/* --- SIDEBAR --- */
 
 #sidebar {
 	grid-area: sidebar;
@@ -74,11 +78,6 @@ table {
 	grid-template-areas: "dashboard"
 						 "first-list"
 						 "second-list";
-}
-
-#main-content {
-	grid-area: main;
-	background-color: rgb(77, 227, 124)
 }
 
 .first-list {
@@ -100,5 +99,11 @@ li {
 }
 
 li:nth-child(2) {
-	margin-top: 10px;
+	margin-top: 20px;
+}
+
+/* --- MAIN CONTENT --- */
+#main-content {
+	grid-area: main;
+	background-color: rgb(77, 227, 124)
 }
