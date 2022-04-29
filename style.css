@@ -72,7 +72,11 @@ table {
 
 .input-div {
 	display: grid;
-	
+	grid-template-columns: 1fr;
+}
+
+.arrow, .bell {
+	vertical-align: middle;
 }
 
 /* --- SIDEBAR --- */
