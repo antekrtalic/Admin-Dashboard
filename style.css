@@ -68,7 +68,8 @@ table {
     background-color: #ffdf7f;
 	grid-template-columns: 1fr;
 	grid-template-rows: minmax(50px, 250px) minmax(50px, 250px);
-	grid-template-areas: "input me";
+	grid-template-areas: "input me"
+						 "welcome-account button-section";
 }
 
 .search {
