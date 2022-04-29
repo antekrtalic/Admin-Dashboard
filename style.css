@@ -70,6 +70,7 @@ table {
 	grid-template-rows: minmax(50px, 250px) minmax(50px, 250px);
 	grid-template-areas: "input me"
 						 "welcome-account button-section";
+	gap: 5px;
 }
 
 .search {
