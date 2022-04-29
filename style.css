@@ -73,6 +73,8 @@ table {
 .search {
 	width: 350px;
 	border-radius: 5px;
+	border: hidden;
+	line-height: 1.6rem;
 }
 
 .input-div {
