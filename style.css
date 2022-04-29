@@ -64,10 +64,11 @@ table {
 
 #header {
     grid-area: header;
-    background-color: rgb(255, 223, 127);
 	display: grid;
+    background-color: #ffdf7f;
 	grid-template-columns: 1fr;
 	grid-template-rows: minmax(50px, 250px) minmax(50px, 250px);
+	grid-template-areas: "input me";
 }
 
 .search {
@@ -78,8 +79,11 @@ table {
 }
 
 .input-div {
-	display: grid;
-	grid-template-columns: 1fr;
+	grid-area: "input";
+}
+
+.me {
+	grid-area: "me";
 }
 
 .arrow, .bell,.rocket, .search-icon {
