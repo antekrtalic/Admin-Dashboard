@@ -66,30 +66,48 @@ table {
     grid-area: header;
 	display: grid;
     background-color: #ffdf7f;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-template-rows: minmax(50px, 250px) minmax(50px, 250px);
 	grid-template-areas: "input me"
 						 "welcome-account button-section";
 	gap: 5px;
 }
 
+.search-icon {
+	margin-right: 10px;
+}
+
 .search {
-	width: 350px;
-	border-radius: 5px;
+	width: 450px;
+	border-radius: 25px;
 	border: hidden;
 	line-height: 1.6rem;
 }
 
 .input-div {
 	grid-area: "input";
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .me {
 	grid-area: "me";
 }
 
+.me span {
+	margin-right: 10px;
+}
+
 .arrow, .bell,.rocket, .search-icon {
 	vertical-align: middle;
+}
+
+.welcome-account {
+	grid-area: "welcome-account";
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* --- SIDEBAR --- */
