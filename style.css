@@ -123,6 +123,11 @@ table {
 
 .button-section button {
 	margin-right: 15px;
+	padding: 10px 25px;
+	border-radius: 25px;
+	background-color: aqua;
+	border: none;
+	color: aliceblue;
 }
 
 /* --- SIDEBAR --- */
