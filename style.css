@@ -110,6 +110,11 @@ table {
 	align-items: center;
 }
 
+.button-section {
+	grid-area: "button-section";
+	display: flex;
+}
+
 /* --- SIDEBAR --- */
 
 #sidebar {
