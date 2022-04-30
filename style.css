@@ -78,21 +78,25 @@ table {
 }
 
 .search {
-	width: 450px;
+	width: 550px;
 	border-radius: 25px;
 	border: hidden;
 	line-height: 1.6rem;
 }
 
 .input-div {
-	grid-area: "input";
+	grid-area: input;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .me {
-	grid-area: "me";
+	grid-area: me;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 2.5rem;
 }
 
 .me span {
@@ -104,15 +108,21 @@ table {
 }
 
 .welcome-account {
-	grid-area: "welcome-account";
+	grid-area: welcome-account;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .button-section {
-	grid-area: "button-section";
+	grid-area: button-section;
 	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button-section button {
+	margin-right: 15px;
 }
 
 /* --- SIDEBAR --- */
