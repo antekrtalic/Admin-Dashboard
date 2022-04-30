@@ -96,7 +96,7 @@ table {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	padding-right: 2.5rem;
+	margin-right: 70px;
 }
 
 .me span {
