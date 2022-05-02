@@ -168,5 +168,15 @@ li:nth-child(2) {
 /* --- MAIN CONTENT --- */
 #main-content {
 	grid-area: main;
-	background-color: rgb(77, 227, 124)
+	background-color: rgb(77, 227, 124);
+	grid-template-columns: repeat(3, 1fr);
+
+}
+
+.projects div {
+	word-wrap: break-word;
+	height: 200px;
+	width: 250px;
+	border: none;
+	border-radius: 25px;
 }
