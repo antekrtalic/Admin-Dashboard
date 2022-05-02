@@ -180,4 +180,5 @@ li:nth-child(2) {
 	border: none;
 	border-radius: 25px;
 	background-color: aliceblue;
+	padding: 10px;
 }
