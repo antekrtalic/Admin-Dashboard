@@ -205,26 +205,6 @@ li:nth-child(2) {
 	border-radius: 25px;
 	background-color: aliceblue;
 	padding: 10px;
-	display: inline-block;
 }
 
-.etch {
-	grid-column: 1 / 2;
-	grid-row: 1 / 2;
-}
-
-.word-chomp {
-	grid-column: 2 / 3;
-	grid-row: 1 / 2;
-}
-
-.library {
-	grid-column: 1 / 2;
-	grid-row: 2 / 3;
-}
-
-.calculator {
-	grid-column: 2 / 3;
-	grid-row: 2 / 3;
-}
 
