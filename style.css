@@ -169,7 +169,7 @@ li:nth-child(2) {
 #main-content {
 	grid-area: main;
 	background-color: rgb(77, 227, 124);
-	grid-template-columns: repeat(3, minmax(150px, 1fr));
+	grid-template-columns: minmax(150px, 1fr), minmax(150px, 1fr), 200px;
 	grid-template-rows: 1fr 1fr;
 	display: grid;
 }
@@ -197,7 +197,7 @@ li:nth-child(2) {
 	grid-row: 3 / 5;
 }
 
-.projects div {
+.projects-section div {
 	word-wrap: break-word;
 	height: 200px;
 	width: 250px;
