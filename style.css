@@ -183,6 +183,8 @@ li:nth-child(2) {
 .news {
 	grid-column: 2 / 3;
 	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr;
 }
 
 .projects {
